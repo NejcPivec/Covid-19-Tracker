@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 50px;
+  background-color: #eee;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Left side */
+.app-left {
+  flex: 0.7;
+}
+
+.navbar {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.app-dropdown {
+  width: 150px;
+}
+
+.infobox-stats {
+  display: flex;
+  align-items: center;
+}
+
+.graph {
+  width: 100%;
+  background-color: #fff;
+  height: 50vh;
+  margin-top: 10px;
+}
+
+.graph-title {
+  font-size: 2rem;
+  margin-left: 35px;
+}
+
+/* Right side */
+.app-right {
+  flex: 0.3;
+  height: 90vh;
+  margin: 10px;
+}
+
+.table-name {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  body {
+    overflow: unset;
   }
-  to {
-    transform: rotate(360deg);
+  .app {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1050px) {
+  .infobox-stats {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .graph {
+    margin: 50px 0;
   }
 }

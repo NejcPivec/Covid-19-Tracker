@@ -1,0 +1,80 @@
+.infobox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  padding: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+.infobox-title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.today,
+.total-cases {
+  font-size: 13px;
+}
+
+.infobox-selected {
+  border-top: 10px solid black;
+}
+
+.infobox-red {
+  border-color: red;
+}
+
+.infobox-green {
+  border-color: greenyellow;
+}
+
+.infobox-cases {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.infobox-cases-red {
+  color: red;
+}
+
+.infobox-cases-green {
+  color: greenyellow;
+}
+
+.infobox-total {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fa-viruses {
+  color: red;
+}
+
+.fa-heartbeat {
+  color: greenyellow;
+}
+
+/* Right */
+.right {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.right i {
+  font-size: 40px;
+}
+
+@media (max-width: 1050px) {
+  .infobox {
+    width: 80%;
+  }
+}
