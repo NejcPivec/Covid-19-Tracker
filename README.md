@@ -13,6 +13,8 @@ You can select for which country you want to view the data, or you can have numb
 
 ## Screenshot:
 
+![HomeScreen](https://github.com/NejcPivec/Covid-19-Tracker/blob/master/src/img/homescreen.png)
+
 ## Live website
 
 [Covid-19 Tracker](https://gallant-pare-86614b.netlify.app)
