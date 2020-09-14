@@ -17,4 +17,4 @@ You can select for which country you want to view the data, or you can have numb
 
 ## Live website
 
-[Covid-19 Tracker](https://gallant-pare-86614b.netlify.app)
+[Covid-19 Tracker](https://condescending-bose-3bcdfe.netlify.app/)
