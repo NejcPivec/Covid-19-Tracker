@@ -78,3 +78,13 @@
     width: 80%;
   }
 }
+
+@media (max-width: 500px) {
+  .right {
+    top: 60px;
+  }
+
+  .right i {
+    font-size: 30px;
+  }
+}
